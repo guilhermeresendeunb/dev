@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Poppins:200,200i,300,300i,400,400i,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Poppins:200,200i,300,300i,400,400i,500,600,700,800,900&display=swap");
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;   
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+    flex-direction: column;
+}
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+@media (max-width: 1024px) {
+	.desktop {
+		display: none;
+    }    
+}
+a, .navbar-link, .navbar-item, .button{
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;    
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+#hero1{
+    background: url(../img/banner/banner.png) center / cover;    
+    
+}
+
+.justify-content{
+    justify-content: flex-start;
+}
+#tituloBotao{
+    /*  */
+    font-family: "Philosopher", sans-serif;
+    font-size: 45px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    top: 200px;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+#botao-view-menu {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001D38+0,fd8e5e+100 */
+    background: #DB9A64;
+    /* IE6-9 */
+    color: #fff;
+    display: inline-block;
+    /* padding: 19px 50px; */
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 2px;
+  }
+/* ------------------------------------------------------------------------------------------------------------------------ */
+  #hero2{
+    background-color: white;    
+    
+}
+  #sed-ut{
+    font-size: 50px;
+    font-family: "Philosopher", sans-serif;
+    color: #001D38;
+    line-height: 60px;
+    margin-bottom: 0;
+  }
+
+  #icon-hamburguer{
+    width: 150; 
+    height: 150; 
+    
+  }

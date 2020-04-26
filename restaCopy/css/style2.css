@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Poppins:200,200i,300,300i,400,400i,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i|Poppins:200,200i,300,300i,400,400i,500,600,700,800,900&display=swap");
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: white;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 100px 600px 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: auto;
+}
+
+.container>div {}
+
+.bg-image-1 {
+    background-image: url(../img/banner/banner.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.header-restaurant {
+    display: grid;
+    /*  background-color: yellowgreen; */
+    grid-row: 1 / 1;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: absolute;
+    top: 40px;
+}
+
+#navbar-home {
+    grid-column: 5;
+}
+
+#navbar-menu {
+    grid-column: 6;
+}
+
+#navbar-pages {
+    grid-column: 7;
+}
+
+#navbar-blog {
+    grid-column: 8;
+}
+
+#navbar-contact {
+    grid-column: 9;
+}
+
+#navbar-book {
+    grid-column: 12;
+}
+
+.navbar a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+
+.view-menus {
+    grid-row: 2 / 2;
+    display: grid;
+    font-family: "Philosopher", sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    /*   background-color: violet; */
+    align-content: end;
+    justify-content: center;
+    space
+}
+
+
+/* .header-restaurant .view-menus {
+    background-image: url(../img/banner/banner.png);
+    background-size: cover;
+    height: 650px;
+} */
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(233, 191, 113);
+}
+
+.sed-ut {
+    grid-row: 3;
+    display: grid;
+    padding: 150px;
+    background-color: rgba(245, 245, 245, 0.945);
+    background-image: url(/img/icon/1.png);
+    background-repeat: no-repeat;
+    justify-content: left;
+    align-content: center;
+    font-size: 50px;
+    font-family: "Philosopher", sans-serif;
+    color: #001D38;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+.tituloSed {}
+
+.long_dash {
+    height: 3px;
+    width: 70px;
+    background: #DB9A64;
+    display: inline-block;
+    margin-bottom: 34px;
+    margin-top: 17px;
+}
+
+.delicious-food {
+    grid-row: 4;
+    background-color: lightgreen;
+}
+
+.testimonials {
+    grid-row: 5;
+    background-color: lightyellow;
+}
+
+.photo-gallery {
+    grid-row: 6;
+    background-color: lightsteelblue;
+}
+
+.reservation {
+    grid-row: 7;
+    background-color: lightseagreen;
+}
+
+.footer {
+    grid-row: 8;
+    background-color: brown;
+}
